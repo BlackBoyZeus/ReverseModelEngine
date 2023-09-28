@@ -9,13 +9,15 @@ OpenAI Python package
 Installation
 Ensure you have Python 3.7 or newer installed.
 Install required Python packages:
-bash
-Copy code
+
 pip install torch openai
+
+
+
 Usage
 Import the UltraBrainGiftWrap class from the provided script:
-python
-Copy code
+
+
 from script_name import UltraBrainGiftWrap
 Replace script_name with the name of the Python file containing the UltraBrainGiftWrap class.
 
@@ -25,8 +27,8 @@ api_key = 'YOUR_OPENAI_API_KEY'
 model_path = 'path_to_your_model.pth'
 wrapper = UltraBrainGiftWrap(model_path=model_path, api_key=api_key)
 Process the model to obtain reverse engineering instructions:
-python
-Copy code
+
+
 instructions = wrapper.process()
 print(instructions)
 Features
